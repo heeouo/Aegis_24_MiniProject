@@ -35,6 +35,7 @@ def recommend_clothing(temperature):
         clothes = ["패딩", "두꺼운 코트", "장갑", "목도리", "스카프", "내복"]
 
     return clothes
+    
 #일교차가 큰 경우 경고 메시지를 출력하는 함수
 def check_temperature_range(min_temp, max_temp):
     
